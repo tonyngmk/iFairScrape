@@ -78,6 +78,7 @@ Finally, just execute *run.py*. Files like *bs4Test.py* is optional.
 
 
 **Additional:**
+
 Check out more [details](https://www.notion.so/goldknees/Scraping-Blackboard-with-Python-2cdbd3f242294120932791c645200570) about this project.
 
 ## 3. Note

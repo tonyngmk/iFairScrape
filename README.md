@@ -20,14 +20,19 @@ Do you often feel that the accumulated hours of downloading files from Blackboar
 
 ## 2. How to use
 
-1. Firstly, **clone** this repository locally into your machine.
-2. Secondly, ensure that you have the **required dependencies** of selenium and bs4. It can easily be obtained through `pip install -r requirements.txt` or
+### 2.1. Clone repository
+
+Firstly, **clone** this repository locally into your machine.
+
+### 2.2. Dependencies
+
+Secondly, ensure that you have the **required dependencies** of selenium and bs4. It can easily be obtained through `pip install -r requirements.txt` or
 
 ```
 pip install selenium
 pip install beautifulsoup4
 ```
-3. Environment variables:
+### 2.3. Environment variables
 
 It is often not good practice to leave credentials in any script. This can be circumvented through using **environment variables**.
 - For Windows, Go to Start -> Edit the system environment variables
@@ -42,7 +47,7 @@ It is often not good practice to leave credentials in any script. This can be ci
 
 ![User variables](./images/startEnviron3.png )
 
-4. Scrip variables
+### 2.4. Script variables
 
 There might be a few **variables** I believe that differ from schools to schools, despite using the same Blackboard platform. Do edit the variables inside **variables.py* accordingly:
 1. `url`:

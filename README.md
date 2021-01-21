@@ -76,7 +76,9 @@ You can name startFolder as anything you want, but ideally the module's name. Th
 
 Finally, just execute *run.py*. Files like *bs4Test.py* is optional.
 
-Check out more [detailed info](https://www.notion.so/goldknees/Scraping-Blackboard-with-Python-2cdbd3f242294120932791c645200570) about this.
+
+**Additional:**
+Check out more [details](https://www.notion.so/goldknees/Scraping-Blackboard-with-Python-2cdbd3f242294120932791c645200570) about this project.
 
 ## 3. Note
 

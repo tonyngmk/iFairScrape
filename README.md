@@ -66,7 +66,7 @@ The location of the file *chromedriver.exe*. The file is included in this reposi
 
 4. `downloadSleepTime`
 
-Selenium has no built-in function to understand whether a file has completed download or not. Hence, the script downloads files or attachments and immediately moves it after the sleep timer interval, where a short sleep time will suffice for small files. However, do consider increasing the sleep timer if the script fails or you anticipate there are large files.
+Selenium has no built-in function to understand whether a file has completed the download or not. Hence, the script downloads files or attachments and immediately moves them after the sleep timer interval, where a short sleep time will suffice for small files. However, do consider increasing the sleep timer if the script fails or you anticipate there are large files.
 
 5. `startFolder` & `startLink`
 

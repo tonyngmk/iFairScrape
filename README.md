@@ -72,6 +72,10 @@ Selenium has no built-in function to understand whether a file has completed dow
 
 You can name startFolder as anything you want, but ideally the module's name. This has to be in the same seqeunce as  startLink. For instance, if I have 3 pages of startFolder ['Leadership - Content', 'Leadership - Reference', 'Entrepreneurship'], startLink would be a list of the 3 respective links in sequence.
 
+### 2.5 Run
+
+Finally, just execute *run.py*. Files like *bs4Test.py* is optional.
+
 ## 3. Note
 
 I am not responsible for anyone's usage or abuse of this method.

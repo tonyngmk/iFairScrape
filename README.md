@@ -2,9 +2,7 @@
 
 ### Description
 
-Do you often feel that the accumulated time spent downloading files from Blackboard wastes too much of your productive time?
-
-Scrape these files programmatically instead!
+Do you ever feel you can better spend the accumulated downloading each file from Blackboard? Well, scrape these files programmatically instead!
 
 *Peek at interface of Selenium:*
 ![Edit the system environment variables](./images/blackboard.gif )
@@ -51,7 +49,7 @@ It is often not good practice to leave credentials in any script. This can be ci
 
 ### 2.4. Script variables
 
-There might be a few **variables** I believe that differ from schools to schools, despite using the same Blackboard platform. Do edit the variables inside **variables.py* accordingly:
+There might be a few **variables** I believe that differ from schools to schools, despite using the same Blackboard platform. Do edit the variables inside *variables.py* accordingly:
 1. `url`
 
 Page where you key your username and password to login to Blackboard.

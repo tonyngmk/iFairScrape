@@ -1,10 +1,10 @@
 # Blackboard Scraper
 
-**Description:**
+### Description
 
 Do you often feel that the accumulated hours of downloading files from Blackboard is way too repetitive and wasting too much of your productive time? Scrape these files programmatically instead!
 
-*Sneak Peek:*
+*Peek at interface of Selenium:*
 ![Edit the system environment variables](./images/blackboard.gif )
 
 ## Table of content
@@ -50,23 +50,23 @@ It is often not good practice to leave credentials in any script. This can be ci
 ### 2.4. Script variables
 
 There might be a few **variables** I believe that differ from schools to schools, despite using the same Blackboard platform. Do edit the variables inside **variables.py* accordingly:
-1. `url`:
+1. `url`
 
 Page where you key your username and password to login to Blackboard.
 
-2. `mainSite`:
+2. `mainSite`
 
 This would be the url of the home page after you have logged in.
 
-3. `chromedriver`:
+3. `chromedriver`
 
 The location of the file *chromedriver.exe*. The file is included in this repository, but do Google for the latest update of it if you wish.
 
-4. `downloadSleepTime`:
+4. `downloadSleepTime`
 
 Selenium has no built-in function to understand whether a file has completed download or not. Hence, the script downloads files or attachments and immediately moves it after the sleep timer interval, where a short sleep time will suffice for small files. However, do consider increasing the sleep timer if the script fails or you anticipate there are large files.
 
-5. `startFolder` and `startLink`:
+5. `startFolder` & `startLink`
 
 You can name startFolder as anything you want, but ideally the module's name. This has to be in the same seqeunce as  startLink. For instance, if I have 3 pages of startFolder ['Leadership - Content', 'Leadership - Reference', 'Entrepreneurship'], startLink would be a list of the 3 respective links in sequence.
 

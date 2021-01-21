@@ -23,7 +23,7 @@ def recursiveFolder(folderLink):
     for folder in folders:
         if folder.find("img").get("alt") == "Item" or folder.find("img").get("alt") == "File":
             name = folder.find("a").text.replace(u'\xa0', u'')
-            link = ntuLearn + folder.find("a").get('href')
+            link = mainSite + folder.find("a").get('href')
             itemText.append(name)
             itemLink.append(link)
             driver.get(link) # Download
@@ -37,7 +37,7 @@ def recursiveFolder(folderLink):
             currentName = re.sub(r'[^\w\s\\-]', '', currentName)
             if not os.path.exists(currentName):
                  os.makedirs(currentName)
-            currentLink = ntuLearn + folder.find("a").get('href')
+            currentLink = mainSite + folder.find("a").get('href')
             contentFolderText.append(currentName)
             contentFolderLink.append(currentLink)
             recursiveFolder((currentName, currentLink))

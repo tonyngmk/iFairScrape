@@ -4,7 +4,7 @@ url = "https://loginfs.ntu.edu.sg/adfs/ls/?SAMLRequest=lVJda8IwFP0r4b73U4UabMVNZ
 if not os.path.exists("Downloads"):
     os.mkdir("Downloads")
 downloadDir =  os.path.join(os.getcwd(), "Downloads") # Directory
-ntuLearn = 'https://ntulearn.ntu.edu.sg'
+mainSite = 'https://ntulearn.ntu.edu.sg'
 chromedriver = r'C:\Users\shyma\Desktop\Github\Projects\Blackboard\chromedriver.exe' # Location of chromedriver.exe (Google and download it if you do not have it)
 downloadSleepTime = 1 # No built-in function in selenium to wait for download to finish. If there are potential big downloads, increase this before os attempts to move it to appropriate location
 

@@ -2,7 +2,9 @@
 
 ### Description
 
-Do you ever feel you can better spend the accumulated downloading each file from Blackboard? Well, scrape these files programmatically instead!
+Do you ever feel that the accumulated time spent downloading each file from Blackboard can be more productively spent?
+
+Well, scrape these files programmatically instead!
 
 *Peek at interface of Selenium:*
 ![Edit the system environment variables](./images/blackboard.gif )

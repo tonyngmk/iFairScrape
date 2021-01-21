@@ -2,7 +2,9 @@
 
 ### Description
 
-Do you often feel that the accumulated hours of downloading files from Blackboard is way too repetitive and wasting too much of your productive time? Scrape these files programmatically instead!
+Do you often feel that the accumulated time spent downloading files from Blackboard wastes too much of your productive time?
+
+Scrape these files programmatically instead!
 
 *Peek at interface of Selenium:*
 ![Edit the system environment variables](./images/blackboard.gif )

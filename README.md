@@ -4,10 +4,9 @@
 
 Script made to scrape brochures from NTU's Career Fair (iFair).
 
-Note that this repository is fairly large in size (800mb) as a result of scraped Brochures included. Do download only relevant script if required, or download brochures at **Brochures** folder for the scraped files.
+> Note that this repository is fairly large in size (800mb) as scraped Brochures are included. Do download only scripts if required, or indidual brochures at **Brochures** folder for the scraped files.
 
 *Peek at interface of Selenium:*
-![Edit the system environment variables](./images/blackboard.gif )
 [![iFair Scrape Demo](http://img.youtube.com/vi/NZfdPJsgTvs/0.jpg)](http://www.youtube.com/watch?v=NZfdPJsgTvs "iFairScrapeDemo")
 
 

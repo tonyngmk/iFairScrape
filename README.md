@@ -55,34 +55,17 @@ It is often not good practice to leave credentials in any script. This can be ci
 ### 2.4. Script variables
 
 There might be a few **variables** I believe that differ from schools to schools, despite using the same Blackboard platform. Do edit the variables inside *variables.py* accordingly:
-1. `url`
-
-Page where you key your username and password to login to Blackboard.
-
-2. `mainSite`
-
-This would be the url of the home page after you have logged in.
-
-3. `chromedriver`
+1. `chromedriver`
 
 The location of the file *chromedriver.exe*. The file is included in this repository, but do Google for the latest update of it if you wish.
 
-4. `downloadSleepTime`
+2. `downloadSleepTime`
 
 Selenium has no built-in function to understand whether a file has completed the download or not. Hence, the script downloads files or attachments and immediately moves them after the sleep timer interval, where a short sleep time will suffice for small files. However, do consider increasing the sleep timer if the script fails or you anticipate there are large files.
-
-5. `startFolder` & `startLink`
-
-You can name startFolder as anything you want, but ideally the module's name. This has to be in the same seqeunce as  startLink. For instance, if I have 3 pages of startFolder ['Leadership - Content', 'Leadership - Reference', 'Entrepreneurship'], startLink would be a list of the 3 respective links in sequence.
 
 ### 2.5 Run
 
 Finally, just execute *run.py*. Files like *bs4Test.py* is optional.
-
-
-**Additional:**
-
-Check out more [details](https://www.notion.so/goldknees/Scraping-Blackboard-with-Python-2cdbd3f242294120932791c645200570) about this project.
 
 ## 3. Note
 

@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import os, re, time
 from variables import *
 
+url = "https://ifair.ntu.edu.sg/saml/login/?sso"
 # Selenium
 def loginToHome():
     options = webdriver.ChromeOptions()
@@ -24,11 +25,11 @@ def loginToHome():
     username.send_keys(os.environ['bbUser'])
     password.send_keys(os.environ['bbPass'])
     driver.find_element_by_id("submitButton").click()
-
     # Error Prompt
-    driver.get("https://ntulearn.ntu.edu.sg/auth-saml/saml/redirectToLearn")
-    element = WebDriverWait(driver, 5).until(lambda x: x.find_element_by_xpath('//*[@id="agree_button"]'))
-    driver.find_element_by_xpath('//*[@id="agree_button"]').click()
+    # driver.get("https://ifair.ntu.edu.sg/home?sso=true")
+    # element = WebDriverWait(driver, 5).until(lambda x: x.find_element_by_xpath("//a[@class='button large hollow"))
+    # driver.get("https://ifair.ntu.edu.sg/hall")
+    # driver.find_element_by_class_name('button large hollow').click()
     return driver
 
 # def recursiveFolder(folderLink, driver):

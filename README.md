@@ -2,22 +2,23 @@
 
 ### Description
 
-Do you ever feel that the accumulated time spent downloading each file from Blackboard can be more productively spent?
+Script made to scrape brochures from NTU's Career Fair (iFair).
 
-Well, scrape these files programmatically instead!
+Note that this repository is fairly large in size (800mb) as a result of scraped Brochures included. Do download only relevant script if required, or download brochures at **Brochures** folder for the scraped files.
 
 *Peek at interface of Selenium:*
 ![Edit the system environment variables](./images/blackboard.gif )
+[![iFair Scrape Demo](http://img.youtube.com/vi/NZfdPJsgTvs/0.jpg)](http://www.youtube.com/watch?v=NZfdPJsgTvs "iFairScrapeDemo")
+
 
 ## Table of content
 1. Features
 2. How to use
 3. Explanation
 
-
 ## 1. Features
-- Replicate folder structure of a site
-- Download all files and items and place in appropriate folders
+- Create folders for each company
+- Download brochures and place in respective files
 - Complete process from login to end
 
 ## 2. How to use
@@ -25,6 +26,8 @@ Well, scrape these files programmatically instead!
 ### 2.1. Clone repository
 
 Firstly, **clone** this repository locally into your machine.
+
+Do note again that you can download the script individually if you do not require Brochures.
 
 ### 2.2. Dependencies
 
